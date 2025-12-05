@@ -42,3 +42,9 @@ Then, to convert the `.avi` into a `.mp4` use:
 sudo apt install ffmpeg
 ffmpeg -i ./output/output_video.avi -c:v libx264 ./output/<your-name>.mp4
 ```
+## Notes
+
+- Ensure the chessboard is clearly visible and well-lit for better calibration.
+- The program currently supports only the cube, but other 3D shapes can be added in the `figures/` folder.
+- The `output/` folder will be automatically created if it does not exist.
+- Use high-quality video for smoother AR performance.
