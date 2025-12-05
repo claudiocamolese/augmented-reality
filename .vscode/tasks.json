@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-ar",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "main.cpp",    
+                "figures/cube.cpp",
+                "-o",
+                "main",
+                "-I/usr/include/opencv4",
+                "-L/usr/lib/x86_64-linux-gnu",
+                "-lopencv_core",
+                "-lopencv_imgproc",
+                "-lopencv_highgui",
+                "-lopencv_imgcodecs",
+                "-lopencv_calib3d",
+                "-lopencv_features2d",
+                "-lopencv_videoio",
+                "-lopencv_video"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
