@@ -1,6 +1,7 @@
 # Augmented Reality
 
 This project demonstrates an Augmented Reality (AR) application in C++ using OpenCV. It detects a chessboard in a video or webcam stream, calibrates the camera, estimates the pose of the chessboard and projects a 3D cube onto the scene in real-time.
+
 ![output_video (online-video-cutter com)](https://github.com/user-attachments/assets/07397888-336f-4567-a12e-554ef22c4ed7)
 ---
 
